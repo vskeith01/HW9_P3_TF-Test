@@ -26,7 +26,10 @@ int main() {
   for (student = 0; student < 5; student++){
     grades[student] = score(student_answers, student);
   }
-    
+
+  cout << " The scores, out of 25, of each of the students are, " << endl;
+  printArray(grades, 5);
+  cout << "Respectively"<< endl;
   
 
     
